@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1 id="inchan"></h1>
+    <h2 id="inle"></h2>
+
+    <script>
+        let a = +prompt('Nhập a: ');
+        let b = +prompt('Nhập b: ');
+        for (i = a; i <= b; i++){
+            if (i % 2 == 0){
+                document.getElementById('inchan').innerHTML= 'số chẵn : ' + i ;
+            }
+            if (i % 2 !== 0){
+                document.getElementById('inle').innerHTML= 'số lẻ : ' + i ;
+            }
+        }
+    </script>
+</body>
+</html>
